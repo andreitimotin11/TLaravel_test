@@ -24,7 +24,7 @@ class IndexController extends Controller
 		//$view->with('title2','Hello World 3');
 		//$view->with('title3','Hello World 4');
 		
-		if(view()->exists('default.template')) {
+		if(view()->exists('default.index')) {
 			
 			//view()->name('default.template','myview');
 			//return view()->of('myview')->withTitle('Hello World');
@@ -36,8 +36,8 @@ class IndexController extends Controller
 			///return;
 			
 			//$path = config('view.paths');
-			//return view()->file($path[0].'/default/template.blade.php')->withTitle('Hello World');;
-			return view('default.template')->withTitle('Hello World');
+			//return view()->file($path[0].'/default/layout.blade.php')->withTitle('Hello World');;
+			return view('default.index')->withTitle('Hello World');
 		}
 		
 		abort(404);
