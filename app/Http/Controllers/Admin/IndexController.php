@@ -36,7 +36,7 @@ class IndexController extends Controller
 			return;
 			
 			//$path = config('view.paths');
-			//return view()->file($path[0].'/default/template.php')->withTitle('Hello World');;
+			//return view()->file($path[0].'/default/template.blade.php')->withTitle('Hello World');;
 			//return view('default.template')->withTitle('Hello World');
 		}
 		
