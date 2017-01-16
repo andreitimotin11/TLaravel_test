@@ -33,11 +33,11 @@ class IndexController extends Controller
 			//$view = view('default.template',['title'=>'Hello World'])->render();
 			echo view('default.template',['title'=>'Hello World'])->getPath();
 			//echo $view;
-			return;
+			///return;
 			
 			//$path = config('view.paths');
 			//return view()->file($path[0].'/default/template.blade.php')->withTitle('Hello World');;
-			//return view('default.template')->withTitle('Hello World');
+			return view('default.template')->withTitle('Hello World');
 		}
 		
 		abort(404);
