@@ -31,7 +31,7 @@ class IndexController extends Controller
 			
 			
 			//$view = view('default.template',['title'=>'Hello World'])->render();
-			echo view('default.template',['title'=>'Hello World'])->getPath();
+			//echo view('default.template',['title'=>'Hello World'])->getPath();
 			//echo $view;
 			///return;
 			
