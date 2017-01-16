@@ -28,7 +28,9 @@
         </div><!--/.navbar-collapse -->
     </div>
 </nav>
-@endsection
+@show
+
+@section('header')
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
     <div class="container">
@@ -37,12 +39,16 @@
         <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
     </div>
 </div>
+@show
+
 
 <div class="container">
     <!-- Example row of columns -->
     <div class="row">
 
         <div class="col-md-3">
+            @section('sidebar')
+
             <div class="sidebar-module">
                 <h2>Archives</h2>
                 <ol class="list-unstyled">
@@ -60,8 +66,9 @@
                     <li><a href="#">April 2013</a></li>
                 </ol>
             </div>
+            @show
         </div>
-
+        @section('content')
         <div class="col-md-9">
 
             <div class="col-md-6">
@@ -90,6 +97,7 @@
             </div><!-- /.blog-post -->
 
         </div>
+        @show
     </div>
 
     <hr>
