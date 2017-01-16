@@ -20,10 +20,10 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="<?php echo route('home'); ?>">Home</a></li>
-                <li><a href="<?php echo route('about'); ?>">About</a></li>
-                <li><a href="<?php echo route('articles'); ?>">Articles</a></li>
-                <li><a href="<?php echo route('article',array('id'=>10)); ?>">Article</a></li>
+                <li class="active"><a href="{{ route('home'); }}">Home</a></li>
+                <li><a href="{{ route('about') }}">About</a></li>
+                <li><a href="{{route('articles') }}">Articles</a></li>
+                <li><a href="{{ route('article',array('id'=>10)) }}">Article</a></li>
             </ul>
         </div><!--/.navbar-collapse -->
     </div>
@@ -34,7 +34,7 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
     <div class="container">
-        <h1><?php echo $title;?></h1>
+        <h1>{{ $title }}</h1>
         <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
         <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
     </div>

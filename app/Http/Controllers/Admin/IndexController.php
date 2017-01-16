@@ -30,7 +30,7 @@ class IndexController extends Controller
 		
 		if(view()->exists('default.index')) {
 
-			return view('default.index')->withTitle('Hello World');
+			return view('default.index',$array);
 		}
 		
 		abort(404);
