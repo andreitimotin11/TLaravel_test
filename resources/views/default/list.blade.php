@@ -1,7 +1,2 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Andrei
- * Date: 16.01.2017
- * Time: 21:26
- */
+include
+<li>{{ $value }}</li>
