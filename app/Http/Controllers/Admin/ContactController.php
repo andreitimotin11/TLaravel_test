@@ -10,12 +10,13 @@ use App\Http\Controllers\Controller;
 
 class ContactController extends Controller
 {
-	
+	/*
 	protected $request;
    
 	  public function __construct(Request $request) {
 		$this->request = $request;
 	}
+	*/
 	
 	
 	public function show(Request $request, $id = FALSE)
@@ -60,7 +61,7 @@ class ContactController extends Controller
 			//return redirect()->route('contact')->withInput();
 			//echo '<h1 style="margin-top:100px">'.$request->method().'</h1>';
 		}
-		//    echo 1;
+		    echo 1;
 		print_r($request->all);
 		// die;
 		
