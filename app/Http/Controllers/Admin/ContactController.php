@@ -50,7 +50,7 @@ class ContactController extends Controller
 		
 		//print_r($request->segments());
 		
-		if ($request->isMethod('post')) {
+		if ($this->request->isMethod('post')) {
 			
 			//$request->flash();
 			//$request->old('name');

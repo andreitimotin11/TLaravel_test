@@ -110,8 +110,8 @@
       <file leaf-file-name="ContactController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ContactController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state relative-caret-position="373">
+              <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
               <folding>
                 <element signature="e#46#74#0#PHP" expanded="true" />
               </folding>
@@ -612,7 +612,7 @@
       <option name="presentableId" value="Default" />
       <updated>1484581033462</updated>
       <workItem from="1484581035674" duration="15427000" />
-      <workItem from="1484647964122" duration="8469000" />
+      <workItem from="1484647964122" duration="8515000" />
     </task>
     <task id="LOCAL-00001" summary="L11. Views">
       <created>1484582942614</created>
@@ -824,11 +824,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484686838129</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="L14. Class Request">
+      <created>1484687092867</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1484687092867</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23896000" />
+    <option name="totallyTimeSpent" value="23942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="654" height="991" extended-state="0" />
@@ -1172,8 +1179,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ContactController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="373">
+          <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
           <folding>
             <element signature="e#46#74#0#PHP" expanded="true" />
           </folding>
