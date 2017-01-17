@@ -17,10 +17,14 @@ class ContactController extends Controller
 		if($request->is('contact')) {
 			echo '<h1 style="margin-top:100px">'.$request->path().'</h1>';
 		}
-
-
 		print_r($request->all());
-		$request->flash();
+		if($request->isMethod('POST')){
+
+
+		$request->flashExcept('name', 'site');
+			return redirect()->route('contact');
+
+		}
 		return view('default.contact', ['title' => 'Contacts']);
 	}
 	

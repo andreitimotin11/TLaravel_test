@@ -6,6 +6,9 @@
 
 		<pre>
 
+            {{
+                print_r(Session::all())
+            }}
 		</pre>
 
         <div class="">
@@ -21,19 +24,19 @@
         <form method="post" action="{{ route('contact') }}">
             <div class="form-group">
                 <label for="name">Name</label>
-                <input type="text" class="form-control" id="name" name="name" value="" placeholder="Jane Doe">
+                <input type="text" class="form-control" id="name" name="name" value="{{ old('name') }}" placeholder="Jane Doe">
             </div>
             <div class="form-group">
                 <label for="email">Email address</label>
-                <input type="email" class="form-control" id="email" value="" name="email" placeholder="Email">
+                <input type="email" class="form-control" id="email" value="{{ old('email') }}" name="email" placeholder="Email">
             </div>
             <div class="form-group">
                 <label for="site">Site</label>
-                <input type="text" class="form-control" id="site" value="" name="site" placeholder="Site">
+                <input type="text" class="form-control" id="site" value="{{ old('site') }}" name="site" placeholder="Site">
             </div>
             <div class="form-group">
                 <label for="text">Text</label>
-                <textarea class="form-control" id="text" name="text" rows="3"></textarea>
+                <textarea class="form-control" id="text" name="text" rows="3">{{ old('text') }}</textarea>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
