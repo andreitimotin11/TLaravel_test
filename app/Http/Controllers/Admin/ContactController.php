@@ -53,7 +53,7 @@ class ContactController extends Controller
 		
 
 		echo 1;
-		print_r($request->all);
+		print_r($request->all());
 		// die;
 		//echo phpinfo();
 		//echo 1;
