@@ -21,9 +21,7 @@ class ContactController extends Controller
 	
 	public function show(Request $request, $id = false)
 	{
-		
-		//print_r($request->all());
-		
+
 		//$array = $request->only(['name','site']);
 		//$array = $request->except(['name','site']);
 		
@@ -35,7 +33,7 @@ class ContactController extends Controller
 		}*/
 		
 		
-		//echo '<h1 style="margin-top:100px">'.$request->name.'</h1>';
+		echo '<h1 style="margin-top:100px">'.$request->name.'</h1>';
 		
 		
 		/*if($request->is('contact')) {
