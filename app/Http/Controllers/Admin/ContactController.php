@@ -19,7 +19,7 @@ class ContactController extends Controller
 	*/
 	
 	
-	public function show(Request $request, $id = FALSE)
+	public function show(Request $request)
 	{
 		
 		//print_r($request->all());
@@ -51,16 +51,7 @@ class ContactController extends Controller
 		
 		//print_r($request->segments());
 		
-		if ($request->isMethod('post')) {
-			
-			//$request->flash();
-			//$request->old('name');
-			//$request->flashOnly('name','site');
-			//$request->flashExcept('name','site');
-			
-			//return redirect()->route('contact')->withInput();
-			//echo '<h1 style="margin-top:100px">'.$request->method().'</h1>';
-		}
+
 		echo 1;
 		print_r($request->all);
 		// die;
