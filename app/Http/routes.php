@@ -21,7 +21,8 @@ Route::get('/articles',['uses'=>'Admin\Core@getArticles','as'=>'articles']);
 
 Route::get('/article/{id}',['uses'=>'Admin\Core@getArticle','as'=>'article']);
 
-
+Route::match(['get', 'post'], '/contacts', ['uses' =>'Admin\Core@getArticle',
+'as' => 'contacts']);
 /*
 |--------------------------------------------------------------------------
 | Application Routes
