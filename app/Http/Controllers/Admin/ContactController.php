@@ -10,26 +10,26 @@ use App\Http\Controllers\Controller;
 
 class ContactController extends Controller
 {
-    
-    /*protected $request;
+	
+	/*protected $request;
    
-   	public function __construct(Request $request) {
-    	$this->request = $request;
+	   public function __construct(Request $request) {
+		$this->request = $request;
 	}*/
-   
-   
-    public function show(Request $request,$id=FALSE) {
-    
-    	//print_r($request->all());
-    	
-    	//$array = $request->only(['name','site']);
-    	//$array = $request->except(['name','site']);
-    	
-    	//print_r($array);
-    	
-    	
-    	
-    	/*if($request->has('name')) {
+	
+	
+	public function show(Request $request, $id = FALSE)
+	{
+		
+		//print_r($request->all());
+		
+		//$array = $request->only(['name','site']);
+		//$array = $request->except(['name','site']);
+		
+		//print_r($array);
+		
+		
+		/*if($request->has('name')) {
 			echo '<h1 style="margin-top:100px">'.$request->input('name','Default').'</h1>';
 		}*/
 		
@@ -50,8 +50,8 @@ class ContactController extends Controller
 		
 		//print_r($request->segments());
 		
-		if($request->isMethod('post')) {
-
+		if ($request->isMethod('post')) {
+			
 			//$request->flash();
 			//$request->old('name');
 			//$request->flashOnly('name','site');
@@ -60,11 +60,11 @@ class ContactController extends Controller
 			//return redirect()->route('contact')->withInput();
 			//echo '<h1 style="margin-top:100px">'.$request->method().'</h1>';
 		}
-	//    echo 1;
-	   print_r($request->all);
-	   // die;
+		//    echo 1;
+		print_r($request->all);
+		// die;
 		
-		return view('default.contact',['title'=>'Contacts']);
+		return view('default.contact', ['title' => 'Contacts']);
 	}
-    
+	
 }

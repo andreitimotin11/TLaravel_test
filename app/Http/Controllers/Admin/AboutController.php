@@ -9,13 +9,14 @@ use App\Http\Controllers\Controller;
 
 class AboutController extends Controller
 {
-    //
-    
-    public function show() {
-		if(view()->exists('default.about')) {
+	//
+
+	public function show()
+	{
+		if (view()->exists('default.about')) {
 			return view('default.about')->withTitle('Hello World');
 		}
 		abort(404);
 	}
-    
+
 }

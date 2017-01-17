@@ -11,17 +11,17 @@
 |
 */
 
-Route::get('/', ['as'=>'home','uses'=>'Admin\IndexController@show']);
+Route::get('/', ['as' => 'home', 'uses' => 'Admin\IndexController@show']);
 
-Route::get('/about',['uses'=>'Admin\AboutController@show','as'=>'about']);
-
-
-Route::get('/articles',['uses'=>'Admin\Core@getArticles','as'=>'articles']);
+Route::get('/about', ['uses' => 'Admin\AboutController@show', 'as' => 'about']);
 
 
-Route::get('/article/{id}',['uses'=>'Admin\Core@getArticle','as'=>'article']);
+Route::get('/articles', ['uses' => 'Admin\Core@getArticles', 'as' => 'articles']);
 
-Route::match(['get','post'],'/contact/{name?}',['uses'=>'Admin\ContactController@show','as'=>'contact']);
+
+Route::get('/article/{id}', ['uses' => 'Admin\Core@getArticle', 'as' => 'article']);
+
+Route::match(['get', 'post'], '/contact/{name?}', ['uses' => 'Admin\ContactController@show', 'as' => 'contact']);
 
 /*
 |--------------------------------------------------------------------------
@@ -35,10 +35,10 @@ Route::match(['get','post'],'/contact/{name?}',['uses'=>'Admin\ContactController
 */
 
 Route::group(['middleware' => ['web']], function () {
-    //
-    ////
-    
-    
-    ///
-    
+	//
+	////
+	
+	
+	///
+	
 });
