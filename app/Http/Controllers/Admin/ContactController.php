@@ -11,9 +11,9 @@ use App\Http\Controllers\Controller;
 class ContactController extends Controller
 {
 	
-	/*protected $request;
+	protected $request;
    
-	   public function __construct(Request $request) {
+	 /*  public function __construct(Request $request) {
 		$this->request = $request;
 	}*/
 	
