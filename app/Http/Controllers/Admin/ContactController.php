@@ -13,9 +13,9 @@ class ContactController extends Controller
 	
 	protected $request;
    
-	 /*  public function __construct(Request $request) {
+	  public function __construct(Request $request) {
 		$this->request = $request;
-	}*/
+	}
 	
 	
 	public function show(Request $request, $id = FALSE)
