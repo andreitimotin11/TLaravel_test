@@ -54,10 +54,6 @@ class ContactController extends Controller
 
 		echo 1;
 		print_r($request->all());
-		echo '<h1>' . $id .'</h1>';
-		// die;
-		//echo phpinfo();
-		//echo 1;
 		return view('default.contact', ['title' => 'Contacts']);
 	}
 	
