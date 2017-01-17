@@ -51,13 +51,7 @@ class ContactController extends Controller
 		//print_r($request->segments());
 		
 		if($request->isMethod('post')) {
-			
-			////
-			
-			////validation
-			
-			////
-			
+
 			//$request->flash();
 			//$request->old('name');
 			//$request->flashOnly('name','site');
@@ -66,6 +60,9 @@ class ContactController extends Controller
 			//return redirect()->route('contact')->withInput();
 			//echo '<h1 style="margin-top:100px">'.$request->method().'</h1>';
 		}
+	//    echo 1;
+	   print_r($request->all);
+	   // die;
 		
 		return view('default.contact',['title'=>'Contacts']);
 	}
