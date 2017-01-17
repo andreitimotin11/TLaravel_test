@@ -33,7 +33,7 @@ class ContactController extends Controller
 		}*/
 		
 		
-		echo '<h1 style="margin-top:100px">'.$request->name.'</h1>';
+		echo '<h1 style="margin-top:100px">'.$request->input('name').'</h1>';
 		
 		
 		/*if($request->is('contact')) {
@@ -51,7 +51,7 @@ class ContactController extends Controller
 		
 
 		echo 1;
-		print_r($request->all());
+		//print_r($request->all());
 		return view('default.contact', ['title' => 'Contacts']);
 	}
 	
