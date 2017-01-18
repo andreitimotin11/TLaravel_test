@@ -80,11 +80,12 @@
       <file leaf-file-name="AboutController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AboutController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="19" column="87" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
+            <state relative-caret-position="168">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
               <folding>
                 <element signature="e#46#74#0#PHP" expanded="true" />
-                <marker date="1484776023270" expanded="true" signature="319:358" placeholder="SELECT * FRO... articles" />
+                <marker date="1484776388573" expanded="true" signature="321:360" placeholder="SELECT * FRO... articles" />
+                <marker date="1484776388573" expanded="true" signature="392:444" placeholder="INSERT INTO `articles`... " />
               </folding>
             </state>
           </provider>
@@ -180,8 +181,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="266" />
-    <option name="y" value="219" />
+    <option name="x" value="202" />
+    <option name="y" value="58" />
     <option name="width" value="853" />
     <option name="height" value="615" />
   </component>
@@ -624,14 +625,7 @@
       <updated>1484581033462</updated>
       <workItem from="1484581035674" duration="15427000" />
       <workItem from="1484647964122" duration="16276000" />
-      <workItem from="1484742651197" duration="19090000" />
-    </task>
-    <task id="LOCAL-00011" summary="L13. Blade">
-      <created>1484591927598</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1484591927598</updated>
+      <workItem from="1484742651197" duration="19484000" />
     </task>
     <task id="LOCAL-00012" summary="L13. Blade">
       <created>1484592832646</created>
@@ -969,14 +963,21 @@
       <option name="project" value="LOCAL" />
       <updated>1484775736287</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="L17. Seeds">
+      <created>1484776027327</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1484776027328</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50793000" />
+    <option name="totallyTimeSpent" value="51187000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="266" y="219" width="853" height="615" extended-state="0" />
+    <frame x="202" y="58" width="853" height="615" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1034,7 +1035,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#46#74#0#PHP" expanded="true" />
-            <marker date="1484776023270" expanded="true" signature="319:358" placeholder="SELECT * FRO... articles" />
+            <marker date="1484776388573" expanded="true" signature="321:360" placeholder="SELECT * FRO... articles" />
+            <marker date="1484776388573" expanded="true" signature="392:444" placeholder="INSERT INTO `articles`... " />
           </folding>
         </state>
       </provider>
@@ -1428,11 +1430,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AboutController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="19" column="87" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
+        <state relative-caret-position="168">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
           <folding>
             <element signature="e#46#74#0#PHP" expanded="true" />
-            <marker date="1484776023270" expanded="true" signature="319:358" placeholder="SELECT * FRO... articles" />
+            <marker date="1484776388573" expanded="true" signature="321:360" placeholder="SELECT * FRO... articles" />
+            <marker date="1484776388573" expanded="true" signature="392:444" placeholder="INSERT INTO `articles`... " />
           </folding>
         </state>
       </provider>
