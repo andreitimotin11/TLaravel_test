@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82b6ffe7-d145-4591-b696-b3f258251bc3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/seeds/ArticlesSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/ArticlesSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/ArticlesSeeder.php" />
     </list>
     <ignored path="tlaravel.loc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,10 +92,16 @@
       <file leaf-file-name="ArticlesSeeder.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/database/seeds/ArticlesSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="793">
+              <caret line="89" column="17" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
               <folding>
-                <marker date="1484761422273" expanded="true" signature="215:276" placeholder="INSERT INTO `articles`... " />
+                <marker date="1484761867941" expanded="true" signature="217:278" placeholder="INSERT INTO `articles`... " />
+                <marker date="1484761867941" expanded="true" signature="1366:1589" placeholder="..." />
+                <marker date="1484761867941" expanded="true" signature="2874:3150" placeholder="..." />
+                <marker date="1484761867941" expanded="true" signature="3295:3609" placeholder="..." />
+                <marker date="1484761867941" expanded="true" signature="4452:4671" placeholder="..." />
+                <marker date="1484761867941" expanded="true" signature="5936:6204" placeholder="..." />
+                <marker date="1484761867941" expanded="true" signature="6345:6651" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -181,10 +186,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="425" />
-    <option name="y" value="233" />
-    <option name="width" value="853" />
-    <option name="height" value="761" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -355,14 +360,7 @@
       <updated>1484581033462</updated>
       <workItem from="1484581035674" duration="15427000" />
       <workItem from="1484647964122" duration="16276000" />
-      <workItem from="1484742651197" duration="14592000" />
-    </task>
-    <task id="LOCAL-00005" summary="L12. Blade">
-      <created>1484589335851</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1484589335851</updated>
+      <workItem from="1484742651197" duration="15000000" />
     </task>
     <task id="LOCAL-00006" summary="L12. Blade">
       <created>1484589836078</created>
@@ -700,18 +698,25 @@
       <option name="project" value="LOCAL" />
       <updated>1484758431073</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="L16. Migrations">
+      <created>1484761460178</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1484761460178</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46295000" />
+    <option name="totallyTimeSpent" value="46703000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="425" y="233" width="853" height="761" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31182796" sideWeight="0.4913607" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20390625" sideWeight="0.4913607" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32795697" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -985,7 +990,7 @@
         <state relative-caret-position="1019">
           <caret line="150" column="1" selection-start-line="150" selection-start-column="1" selection-end-line="150" selection-end-column="1" />
           <folding>
-            <element signature="e#7#34#0#PHP" expanded="true" />
+            <element signature="e#7#34#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1148,10 +1153,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/ArticlesSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="793">
+          <caret line="89" column="17" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
           <folding>
-            <marker date="1484761422273" expanded="true" signature="215:276" placeholder="INSERT INTO `articles`... " />
+            <marker date="1484761867941" expanded="true" signature="217:278" placeholder="INSERT INTO `articles`... " />
+            <marker date="1484761867941" expanded="true" signature="1366:1589" placeholder="..." />
+            <marker date="1484761867941" expanded="true" signature="2874:3150" placeholder="..." />
+            <marker date="1484761867941" expanded="true" signature="3295:3609" placeholder="..." />
+            <marker date="1484761867941" expanded="true" signature="4452:4671" placeholder="..." />
+            <marker date="1484761867941" expanded="true" signature="5936:6204" placeholder="..." />
+            <marker date="1484761867941" expanded="true" signature="6345:6651" placeholder="..." />
           </folding>
         </state>
       </provider>
