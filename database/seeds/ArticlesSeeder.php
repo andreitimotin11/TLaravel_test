@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use App\Article;
 
 class ArticlesSeeder extends Seeder
 {
@@ -90,5 +91,11 @@ class ArticlesSeeder extends Seeder
 			    ]
 		    ]
 	    );
+	    Article::create([
+		                    'name' => 'Sample blog post 3',
+	                        'text' => 'Hello world!',
+	                        'img' => 'pic4.jpg'
+
+	                    ]);
     }
 }
