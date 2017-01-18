@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82b6ffe7-d145-4591-b696-b3f258251bc3" name="Default" comment="L15. Class Response">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2017_01_18_182759_create_articles_table2.php" />
+    <list default="true" id="82b6ffe7-d145-4591-b696-b3f258251bc3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tlaravel.loc.iws" />
@@ -308,14 +307,7 @@
       <updated>1484581033462</updated>
       <workItem from="1484581035674" duration="15427000" />
       <workItem from="1484647964122" duration="16276000" />
-      <workItem from="1484742651197" duration="10599000" />
-    </task>
-    <task id="LOCAL-00001" summary="L11. Views">
-      <created>1484582942614</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1484582942614</updated>
+      <workItem from="1484742651197" duration="10620000" />
     </task>
     <task id="LOCAL-00002" summary="L12. Blade">
       <created>1484588121859</created>
@@ -653,11 +645,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484756169531</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="L15. Migrations">
+      <created>1484757470392</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1484757470477</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42302000" />
+    <option name="totallyTimeSpent" value="42323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="18" y="59" width="853" height="1036" extended-state="0" />
@@ -700,7 +699,8 @@
     <MESSAGE value="L13. Blade" />
     <MESSAGE value="L14. Class Request" />
     <MESSAGE value="L15. Class Response" />
-    <option name="LAST_COMMIT_MESSAGE" value="L15. Class Response" />
+    <MESSAGE value="L15. Migrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="L15. Migrations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
