@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82b6ffe7-d145-4591-b696-b3f258251bc3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2017_01_18_184455_change_articles_table.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tlaravel.loc.iws" />
@@ -68,11 +69,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017_01_18_182759_create_articles_table2.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017_01_18_182759_create_articles_table2.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/migrations/2017_01_18_182759_create_articles_table2.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="122">
               <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017_01_18_184455_change_articles_table.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2017_01_18_184455_change_articles_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -116,6 +127,7 @@
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/database/migrations/2017_01_18_182759_create_articles_table2.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2017_01_18_184455_change_articles_table.php" />
       </list>
     </option>
   </component>
@@ -307,14 +319,7 @@
       <updated>1484581033462</updated>
       <workItem from="1484581035674" duration="15427000" />
       <workItem from="1484647964122" duration="16276000" />
-      <workItem from="1484742651197" duration="10620000" />
-    </task>
-    <task id="LOCAL-00002" summary="L12. Blade">
-      <created>1484588121859</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1484588121859</updated>
+      <workItem from="1484742651197" duration="11257000" />
     </task>
     <task id="LOCAL-00003" summary="L12. Blade">
       <created>1484588159858</created>
@@ -652,11 +657,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484757470477</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="L16. Migrations">
+      <created>1484757502607</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1484757502607</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42323000" />
+    <option name="totallyTimeSpent" value="42960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="18" y="59" width="853" height="1036" extended-state="0" />
@@ -700,7 +712,8 @@
     <MESSAGE value="L14. Class Request" />
     <MESSAGE value="L15. Class Response" />
     <MESSAGE value="L15. Migrations" />
-    <option name="LAST_COMMIT_MESSAGE" value="L15. Migrations" />
+    <MESSAGE value="L16. Migrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="L16. Migrations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -709,14 +722,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/default/contact.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ContactController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1106,6 +1111,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2017_01_18_184455_change_articles_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
