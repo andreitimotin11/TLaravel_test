@@ -80,13 +80,14 @@
       <file leaf-file-name="AboutController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AboutController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+            <state relative-caret-position="348">
+              <caret line="23" column="72" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
               <folding>
                 <element signature="e#46#74#0#PHP" expanded="true" />
-                <marker date="1484776647669" expanded="true" signature="319:343" placeholder="SELECT * FRO... articles" />
-                <marker date="1484776647669" expanded="true" signature="319:344" placeholder="SELECT * FRO... articles" />
-                <marker date="1484776647669" expanded="true" signature="363:415" placeholder="INSERT INTO `articles`... " />
+                <marker date="1484776702166" expanded="true" signature="319:343" placeholder="SELECT * FRO... articles" />
+                <marker date="1484776702166" expanded="true" signature="319:344" placeholder="SELECT * FRO... articles" />
+                <marker date="1484776702166" expanded="true" signature="363:415" placeholder="INSERT INTO `articles`... " />
+                <marker date="1484776702166" expanded="true" signature="544:583" placeholder="UPDATE `arti... " />
               </folding>
             </state>
           </provider>
@@ -182,8 +183,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="201" />
-    <option name="y" value="16" />
+    <option name="x" value="52" />
+    <option name="y" value="60" />
     <option name="width" value="853" />
     <option name="height" value="615" />
   </component>
@@ -626,14 +627,7 @@
       <updated>1484581033462</updated>
       <workItem from="1484581035674" duration="15427000" />
       <workItem from="1484647964122" duration="16276000" />
-      <workItem from="1484742651197" duration="19713000" />
-    </task>
-    <task id="LOCAL-00015" summary="L13. Blade">
-      <created>1484596901956</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1484596901956</updated>
+      <workItem from="1484742651197" duration="19768000" />
     </task>
     <task id="LOCAL-00016" summary="L13. Blade">
       <created>1484601224941</created>
@@ -971,14 +965,21 @@
       <option name="project" value="LOCAL" />
       <updated>1484776614377</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="L17. Seeds">
+      <created>1484776652636</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1484776652636</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51416000" />
+    <option name="totallyTimeSpent" value="51471000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="201" y="16" width="853" height="615" extended-state="0" />
+    <frame x="52" y="60" width="853" height="615" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1036,9 +1037,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#46#74#0#PHP" expanded="true" />
-            <marker date="1484776647669" expanded="true" signature="319:343" placeholder="SELECT * FRO... articles" />
-            <marker date="1484776647669" expanded="true" signature="319:344" placeholder="SELECT * FRO... articles" />
-            <marker date="1484776647669" expanded="true" signature="363:415" placeholder="INSERT INTO `articles`... " />
+            <marker date="1484776702166" expanded="true" signature="319:343" placeholder="SELECT * FRO... articles" />
+            <marker date="1484776702166" expanded="true" signature="319:344" placeholder="SELECT * FRO... articles" />
+            <marker date="1484776702166" expanded="true" signature="363:415" placeholder="INSERT INTO `articles`... " />
+            <marker date="1484776702166" expanded="true" signature="544:583" placeholder="UPDATE `arti... " />
           </folding>
         </state>
       </provider>
@@ -1432,13 +1434,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AboutController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        <state relative-caret-position="348">
+          <caret line="23" column="72" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
           <folding>
             <element signature="e#46#74#0#PHP" expanded="true" />
-            <marker date="1484776647669" expanded="true" signature="319:343" placeholder="SELECT * FRO... articles" />
-            <marker date="1484776647669" expanded="true" signature="319:344" placeholder="SELECT * FRO... articles" />
-            <marker date="1484776647669" expanded="true" signature="363:415" placeholder="INSERT INTO `articles`... " />
+            <marker date="1484776702166" expanded="true" signature="319:343" placeholder="SELECT * FRO... articles" />
+            <marker date="1484776702166" expanded="true" signature="319:344" placeholder="SELECT * FRO... articles" />
+            <marker date="1484776702166" expanded="true" signature="363:415" placeholder="INSERT INTO `articles`... " />
+            <marker date="1484776702166" expanded="true" signature="544:583" placeholder="UPDATE `arti... " />
           </folding>
         </state>
       </provider>

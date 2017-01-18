@@ -21,7 +21,7 @@ class AboutController extends Controller
 			DB::insert('INSERT INTO `articles` (`name`, `text`) VALUES (?,?)', ['test 1', 'TEXT']);
 			dump($articles);
 			return view('default.about')->withTitle('Hello World!');
-			$result = DB::update("UPDATE `articles");
+			$result = DB::update('UPDATE `articles` SET `name` = "TEST 2"' );
 
 		}
 		abort(404);
