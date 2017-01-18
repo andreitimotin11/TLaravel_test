@@ -19,8 +19,12 @@ class AboutController extends Controller
 		/*
 			$view = view('default.about')->withTitle('Hello world!')->render();
 			return (new Response($view))->header('Content-Type','newType' );
-			return response()->json(['name'=> 'Hello', 'name2'=> 'Hello2']);*/
+			return response()->json(['name'=> 'Hello', 'name2'=> 'Hello2']);
 			return response()->view('default.about', ['title' => 'Hello World']);
+			return response()->download('robots.txt', 'mytext.txt');
+			*/
+			return redirect('/');
+
 		}
 		abort(404);
 	}
