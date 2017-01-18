@@ -17,9 +17,9 @@ class AboutController extends Controller
 	public function show()
 	{
 		if (view()->exists('default.about')) {
-			//$articles = DB::select("SELECT * FROM `articles` WHERE id = :id", ['id' => 2]);
+			$articles = DB::select("SELECT * FROM `articles` ");
 			DB::insert('INSERT INTO `articles` (`name`, `text`) VALUES (?,?)', ['test 1', 'TEXT']);
-			//dump($articles);
+			dump($articles);
 			return view('default.about')->withTitle('Hello World!');
 
 		}
