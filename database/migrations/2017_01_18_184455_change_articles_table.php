@@ -12,10 +12,12 @@ class ChangeArticlesTable extends Migration
      */
     public function up()
     {
-        Schema::table('articles', function (Blueprint $table) {
-            //
-            $table->string('alias', 100);
-        });
+        if(Schema::hasTable('articles')){
+            Schema::table('articles', function (Blueprint $table) {
+                //
+                $table->string('alias', 100);
+            });
+        }
     }
 
     /**
