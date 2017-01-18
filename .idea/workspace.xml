@@ -81,12 +81,12 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AboutController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="328">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+              <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
               <folding>
                 <element signature="e#46#74#0#PHP" expanded="true" />
-                <marker date="1484776610122" expanded="true" signature="319:343" placeholder="SELECT * FRO... articles" />
-                <marker date="1484776610122" expanded="true" signature="319:344" placeholder="SELECT * FRO... articles" />
-                <marker date="1484776610122" expanded="true" signature="363:415" placeholder="INSERT INTO `articles`... " />
+                <marker date="1484776647669" expanded="true" signature="319:343" placeholder="SELECT * FRO... articles" />
+                <marker date="1484776647669" expanded="true" signature="319:344" placeholder="SELECT * FRO... articles" />
+                <marker date="1484776647669" expanded="true" signature="363:415" placeholder="INSERT INTO `articles`... " />
               </folding>
             </state>
           </provider>
@@ -626,14 +626,7 @@
       <updated>1484581033462</updated>
       <workItem from="1484581035674" duration="15427000" />
       <workItem from="1484647964122" duration="16276000" />
-      <workItem from="1484742651197" duration="19675000" />
-    </task>
-    <task id="LOCAL-00014" summary="L13. Blade">
-      <created>1484594786769</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1484594786770</updated>
+      <workItem from="1484742651197" duration="19713000" />
     </task>
     <task id="LOCAL-00015" summary="L13. Blade">
       <created>1484596901956</created>
@@ -971,11 +964,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484776538721</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="L17. Seeds">
+      <created>1484776614377</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1484776614377</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51378000" />
+    <option name="totallyTimeSpent" value="51416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="201" y="16" width="853" height="615" extended-state="0" />
@@ -1036,9 +1036,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#46#74#0#PHP" expanded="true" />
-            <marker date="1484776610122" expanded="true" signature="319:343" placeholder="SELECT * FRO... articles" />
-            <marker date="1484776610122" expanded="true" signature="319:344" placeholder="SELECT * FRO... articles" />
-            <marker date="1484776610122" expanded="true" signature="363:415" placeholder="INSERT INTO `articles`... " />
+            <marker date="1484776647669" expanded="true" signature="319:343" placeholder="SELECT * FRO... articles" />
+            <marker date="1484776647669" expanded="true" signature="319:344" placeholder="SELECT * FRO... articles" />
+            <marker date="1484776647669" expanded="true" signature="363:415" placeholder="INSERT INTO `articles`... " />
           </folding>
         </state>
       </provider>
@@ -1433,12 +1433,12 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AboutController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
           <folding>
             <element signature="e#46#74#0#PHP" expanded="true" />
-            <marker date="1484776610122" expanded="true" signature="319:343" placeholder="SELECT * FRO... articles" />
-            <marker date="1484776610122" expanded="true" signature="319:344" placeholder="SELECT * FRO... articles" />
-            <marker date="1484776610122" expanded="true" signature="363:415" placeholder="INSERT INTO `articles`... " />
+            <marker date="1484776647669" expanded="true" signature="319:343" placeholder="SELECT * FRO... articles" />
+            <marker date="1484776647669" expanded="true" signature="319:344" placeholder="SELECT * FRO... articles" />
+            <marker date="1484776647669" expanded="true" signature="363:415" placeholder="INSERT INTO `articles`... " />
           </folding>
         </state>
       </provider>
