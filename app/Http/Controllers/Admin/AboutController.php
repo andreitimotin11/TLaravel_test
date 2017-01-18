@@ -18,11 +18,12 @@ class AboutController extends Controller
 	{
 		if (view()->exists('default.about')) {
 			$articles = DB::select("SELECT * FROM `articles` ");
-			DB::insert('INSERT INTO `articles` (`name`, `text`) VALUES (?,?)', ['test 1', 'TEXT']);
-			dump($articles);
-			return view('default.about')->withTitle('Hello World!');
-			$result = DB::update('UPDATE `articles` SET `name` = "TEST 2"' );
+//			DB::insert('INSERT INTO `articles` (`name`, `text`) VALUES (?,?)', ['test 1', 'TEXT']);
 
+			$result = DB::update('UPDATE `articles` SET `name` = ? WHERE `id` = ?',['TEST 2', 6] );
+			dump($articles);
+			echo $result;
+			return view('default.about')->withTitle('Hello World!');
 		}
 		abort(404);
 	}
