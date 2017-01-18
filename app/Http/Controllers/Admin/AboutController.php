@@ -18,8 +18,9 @@ class AboutController extends Controller
 		if (view()->exists('default.about')) {
 		/*
 			$view = view('default.about')->withTitle('Hello world!')->render();
-			return (new Response($view))->header('Content-Type','newType' );*/
-			return response()->json(['name'=> 'Hello', 'name2'=> 'Hello2']);
+			return (new Response($view))->header('Content-Type','newType' );
+			return response()->json(['name'=> 'Hello', 'name2'=> 'Hello2']);*/
+			return response()->view('default.about', ['title' => 'Hello World']);
 		}
 		abort(404);
 	}
