@@ -106,11 +106,13 @@
       <file leaf-file-name="AboutController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AboutController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="21" column="99" selection-start-line="21" selection-start-column="99" selection-end-line="21" selection-end-column="99" />
+            <state relative-caret-position="440">
+              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
               <folding>
-                <marker date="1485096145010" expanded="true" signature="319:343" placeholder="SELECT * FRO... articles" />
-                <marker date="1485096145010" expanded="true" signature="383:436" placeholder="INSERT INTO `articles`... " />
+                <marker date="1485096783404" expanded="true" signature="309:362" placeholder="INSERT INTO `articles`... " />
+                <marker date="1485096783404" expanded="true" signature="412:436" placeholder="SELECT * FRO... articles" />
+                <marker date="1485096783404" expanded="true" signature="468:514" placeholder="UPDATE `arti... " />
+                <marker date="1485096783404" expanded="true" signature="557:592" placeholder="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -301,14 +303,7 @@
       <workItem from="1484742651197" duration="20801000" />
       <workItem from="1484827318344" duration="1854000" />
       <workItem from="1484983966669" duration="2096000" />
-      <workItem from="1485068300580" duration="10682000" />
-    </task>
-    <task id="LOCAL-00025" summary="L14. Class Request">
-      <created>1484658520149</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1484658520149</updated>
+      <workItem from="1485068300580" duration="11318000" />
     </task>
     <task id="LOCAL-00026" summary="L14. Class Request">
       <created>1484685775753</created>
@@ -646,11 +641,18 @@
       <option name="project" value="LOCAL" />
       <updated>1485096032774</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="L18. SQL">
+      <created>1485096152492</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1485096152493</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67136000" />
+    <option name="totallyTimeSpent" value="67772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="633" y="0" width="654" height="991" extended-state="0" />
@@ -1069,11 +1071,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AboutController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="99" selection-start-line="21" selection-start-column="99" selection-end-line="21" selection-end-column="99" />
+        <state relative-caret-position="440">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
           <folding>
-            <marker date="1485096145010" expanded="true" signature="319:343" placeholder="SELECT * FRO... articles" />
-            <marker date="1485096145010" expanded="true" signature="383:436" placeholder="INSERT INTO `articles`... " />
+            <marker date="1485096783404" expanded="true" signature="309:362" placeholder="INSERT INTO `articles`... " />
+            <marker date="1485096783404" expanded="true" signature="412:436" placeholder="SELECT * FRO... articles" />
+            <marker date="1485096783404" expanded="true" signature="468:514" placeholder="UPDATE `arti... " />
+            <marker date="1485096783404" expanded="true" signature="557:592" placeholder="DELETE FROM " />
           </folding>
         </state>
       </provider>
