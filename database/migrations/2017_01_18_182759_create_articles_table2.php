@@ -17,7 +17,7 @@ class CreateArticlesTable2 extends Migration
 
             $table->increments('id');
             $table->string('name', 100); // Varchar 100 symbols
-            $table->text('test'); // Varchar 100 symbols
+            $table->text('text'); // Varchar 100 symbols
             $table->string('img', 255); // Varchar 100 symbols
 
             $table->timestamps();
