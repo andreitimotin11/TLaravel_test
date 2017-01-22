@@ -24,6 +24,8 @@ class AboutController extends Controller
 
 			//dump($result);
 			//dump($articles);
+			$articles = DB::select('SELECT * FROM `articles` ');
+
 			return view('default.about')->withTitle('Hello World!');
 		}
 		abort(404);
