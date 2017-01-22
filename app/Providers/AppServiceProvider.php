@@ -5,6 +5,7 @@ namespace App\Providers;
 use Illuminate\Support\ServiceProvider;
 use Blade;
 use Responce;
+use DB;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -20,6 +21,10 @@ class AppServiceProvider extends ServiceProvider
         	
         	return "<h1>New Directive - $var</h1>";
         	
+        });
+        DB::listen(function($query){
+           dump($query->sql);
+           dump($query->bindings);
         });
     }
 
