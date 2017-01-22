@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="82b6ffe7-d145-4591-b696-b3f258251bc3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/AboutController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AboutController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/ArticlesSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/ArticlesSeeder.php" />
     </list>
     <ignored path="tlaravel.loc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="200">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -88,16 +89,28 @@
       <file leaf-file-name="ArticlesSeeder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/seeds/ArticlesSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="92" column="10" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
+            <state relative-caret-position="867">
+              <caret line="81" column="132" selection-start-line="81" selection-start-column="132" selection-end-line="81" selection-end-column="132" />
               <folding>
-                <marker date="1484762987577" expanded="true" signature="234:295" placeholder="INSERT INTO `articles`... " />
-                <marker date="1484762987577" expanded="true" signature="1383:1606" placeholder="..." />
-                <marker date="1484762987577" expanded="true" signature="2891:3167" placeholder="..." />
-                <marker date="1484762987577" expanded="true" signature="3312:3626" placeholder="..." />
-                <marker date="1484762987577" expanded="true" signature="4469:4688" placeholder="..." />
-                <marker date="1484762987577" expanded="true" signature="5953:6221" placeholder="..." />
-                <marker date="1484762987577" expanded="true" signature="6362:6668" placeholder="..." />
+                <marker date="1485090173791" expanded="true" signature="234:295" placeholder="INSERT INTO `articles`... " />
+                <marker date="1485090173791" expanded="true" signature="1383:1606" placeholder="..." />
+                <marker date="1485090173791" expanded="true" signature="2891:3167" placeholder="..." />
+                <marker date="1485090173791" expanded="true" signature="3312:3626" placeholder="..." />
+                <marker date="1485090173791" expanded="true" signature="4469:4688" placeholder="..." />
+                <marker date="1485090173791" expanded="true" signature="5953:6221" placeholder="..." />
+                <marker date="1485090173791" expanded="true" signature="6362:6668" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AboutController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+              <folding>
+                <marker date="1485095035697" expanded="true" signature="307:331" placeholder="SELECT * FRO... articles" />
               </folding>
             </state>
           </provider>
@@ -118,16 +131,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="session.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/session.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -160,12 +163,12 @@
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/database/migrations/2017_01_18_184455_change_articles_table.php" />
-        <option value="$PROJECT_DIR$/database/seeds/ArticlesSeeder.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/AboutController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2017_01_18_182759_create_articles_table2.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/Article.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/ArticlesSeeder.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/AboutController.php" />
       </list>
     </option>
   </component>
@@ -185,10 +188,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-25" />
-    <option name="y" value="79" />
-    <option name="width" value="1292" />
-    <option name="height" value="894" />
+    <option name="x" value="633" />
+    <option name="width" value="654" />
+    <option name="height" value="991" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -217,56 +219,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tlaravel.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tlaravel.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tlaravel.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tlaravel.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tlaravel.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tlaravel.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tlaravel.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seeds" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scratches" />
     </panes>
@@ -348,14 +301,7 @@
       <workItem from="1484742651197" duration="20801000" />
       <workItem from="1484827318344" duration="1854000" />
       <workItem from="1484983966669" duration="2096000" />
-      <workItem from="1485068300580" duration="7739000" />
-    </task>
-    <task id="LOCAL-00022" summary="L14. Class Request">
-      <created>1484648828217</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1484648828217</updated>
+      <workItem from="1485068300580" duration="9575000" />
     </task>
     <task id="LOCAL-00023" summary="L14. Class Request">
       <created>1484648866500</created>
@@ -693,18 +639,25 @@
       <option name="project" value="LOCAL" />
       <updated>1485089420469</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="L17. Seeds">
+      <created>1485089860273</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1485089860273</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64193000" />
+    <option name="totallyTimeSpent" value="66029000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-25" y="79" width="1292" height="894" extended-state="0" />
+    <frame x="633" y="0" width="654" height="991" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20454545" sideWeight="0.4913607" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4090909" sideWeight="0.4913607" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32795697" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -864,6 +817,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1019">
           <caret line="150" column="1" selection-start-line="150" selection-start-column="1" selection-end-line="150" selection-end-column="1" />
+          <folding>
+            <element signature="e#7#34#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1003,20 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AboutController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="5" />
-          <folding>
-            <element signature="e#46#74#0#PHP" expanded="false" />
-            <marker date="1484777062085" expanded="true" signature="319:343" placeholder="SELECT * FRO... articles" />
-            <marker date="1484777062085" expanded="true" signature="319:344" placeholder="SELECT * FRO... articles" />
-            <marker date="1484777062085" expanded="true" signature="365:417" placeholder="INSERT INTO `articles`... " />
-            <marker date="1484777062085" expanded="true" signature="467:514" placeholder="UPDATE `arti... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ContactController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1091,22 +1033,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/ArticlesSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="92" column="10" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
-          <folding>
-            <marker date="1484762987577" expanded="true" signature="234:295" placeholder="INSERT INTO `articles`... " />
-            <marker date="1484762987577" expanded="true" signature="1383:1606" placeholder="..." />
-            <marker date="1484762987577" expanded="true" signature="2891:3167" placeholder="..." />
-            <marker date="1484762987577" expanded="true" signature="3312:3626" placeholder="..." />
-            <marker date="1484762987577" expanded="true" signature="4469:4688" placeholder="..." />
-            <marker date="1484762987577" expanded="true" signature="5953:6221" placeholder="..." />
-            <marker date="1484762987577" expanded="true" signature="6362:6668" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/UserTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -1117,9 +1043,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="200">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/ArticlesSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="81" column="132" selection-start-line="81" selection-start-column="132" selection-end-line="81" selection-end-column="132" />
+          <folding>
+            <marker date="1485090173791" expanded="true" signature="234:295" placeholder="INSERT INTO `articles`... " />
+            <marker date="1485090173791" expanded="true" signature="1383:1606" placeholder="..." />
+            <marker date="1485090173791" expanded="true" signature="2891:3167" placeholder="..." />
+            <marker date="1485090173791" expanded="true" signature="3312:3626" placeholder="..." />
+            <marker date="1485090173791" expanded="true" signature="4469:4688" placeholder="..." />
+            <marker date="1485090173791" expanded="true" signature="5953:6221" placeholder="..." />
+            <marker date="1485090173791" expanded="true" signature="6362:6668" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AboutController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <marker date="1485095035697" expanded="true" signature="307:331" placeholder="SELECT * FRO... articles" />
+          </folding>
         </state>
       </provider>
     </entry>

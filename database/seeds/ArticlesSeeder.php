@@ -90,7 +90,7 @@ class ArticlesSeeder extends Seeder
 				    'img'=>'pic3.jpg'
 			    ]
 		    ]
-	    );
+	    )->default(['alias'=>'alias']);
 	    Article::create([
 		                    'name' => 'Sample blog post 3',
 	                        'text' => 'Hello world!',
