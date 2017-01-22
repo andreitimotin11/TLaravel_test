@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="82b6ffe7-d145-4591-b696-b3f258251bc3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Article.php" afterPath="$PROJECT_DIR$/app/Article.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
     </list>
     <ignored path="tlaravel.loc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Article.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Article.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Article.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="200">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -65,12 +66,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArticlesSeeder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/seeds/ArticlesSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="67" column="157" selection-start-line="67" selection-start-column="157" selection-end-line="67" selection-end-column="157" />
+              <folding>
+                <marker date="1484762987577" expanded="true" signature="234:295" placeholder="INSERT INTO `articles`... " />
+                <marker date="1484762987577" expanded="true" signature="1383:1606" placeholder="..." />
+                <marker date="1484762987577" expanded="true" signature="2891:3167" placeholder="..." />
+                <marker date="1484762987577" expanded="true" signature="3312:3626" placeholder="..." />
+                <marker date="1484762987577" expanded="true" signature="4469:4688" placeholder="..." />
+                <marker date="1484762987577" expanded="true" signature="5953:6221" placeholder="..." />
+                <marker date="1484762987577" expanded="true" signature="6362:6668" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,18 +134,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ContactController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-              <folding>
-                <marker date="1484695344144" expanded="true" signature="293:309" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -159,6 +166,7 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/AboutController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2017_01_18_182759_create_articles_table2.php" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/Article.php" />
       </list>
     </option>
   </component>
@@ -178,10 +186,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="11" />
-    <option name="y" value="71" />
+    <option name="x" value="-25" />
+    <option name="y" value="79" />
     <option name="width" value="1292" />
-    <option name="height" value="1000" />
+    <option name="height" value="894" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -237,7 +245,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -323,14 +331,7 @@
       <workItem from="1484742651197" duration="20801000" />
       <workItem from="1484827318344" duration="1854000" />
       <workItem from="1484983966669" duration="2096000" />
-      <workItem from="1485068300580" duration="4881000" />
-    </task>
-    <task id="LOCAL-00020" summary="L13. Blade">
-      <created>1484601794312</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1484601794312</updated>
+      <workItem from="1485068300580" duration="7296000" />
     </task>
     <task id="LOCAL-00021" summary="L14. Class Request">
       <created>1484648450640</created>
@@ -668,14 +669,21 @@
       <option name="project" value="LOCAL" />
       <updated>1485076264700</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="L17. Seeds">
+      <created>1485081761675</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1485081761675</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61335000" />
+    <option name="totallyTimeSpent" value="63750000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="71" width="1292" height="1000" extended-state="0" />
+    <frame x="-25" y="79" width="1292" height="894" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -955,13 +963,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/ArticlesSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/mail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -997,7 +998,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="5" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="5" />
           <folding>
-            <element signature="e#46#74#0#PHP" expanded="true" />
+            <element signature="e#46#74#0#PHP" expanded="false" />
             <marker date="1484777062085" expanded="true" signature="319:343" placeholder="SELECT * FRO... articles" />
             <marker date="1484777062085" expanded="true" signature="319:344" placeholder="SELECT * FRO... articles" />
             <marker date="1484777062085" expanded="true" signature="365:417" placeholder="INSERT INTO `articles`... " />
@@ -1056,14 +1057,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2017_01_18_182759_create_articles_table2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
@@ -1084,6 +1077,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/ArticlesSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="67" column="157" selection-start-line="67" selection-start-column="157" selection-end-line="67" selection-end-column="157" />
+          <folding>
+            <marker date="1484762987577" expanded="true" signature="234:295" placeholder="INSERT INTO `articles`... " />
+            <marker date="1484762987577" expanded="true" signature="1383:1606" placeholder="..." />
+            <marker date="1484762987577" expanded="true" signature="2891:3167" placeholder="..." />
+            <marker date="1484762987577" expanded="true" signature="3312:3626" placeholder="..." />
+            <marker date="1484762987577" expanded="true" signature="4469:4688" placeholder="..." />
+            <marker date="1484762987577" expanded="true" signature="5953:6221" placeholder="..." />
+            <marker date="1484762987577" expanded="true" signature="6362:6668" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding />
         </state>
       </provider>
