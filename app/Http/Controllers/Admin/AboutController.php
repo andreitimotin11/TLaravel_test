@@ -19,6 +19,7 @@ class AboutController extends Controller
 		if (view()->exists('default.about')) {
 			$articles = DB::select('SELECT * FROM `articles` ');
 			dump($articles);
+			DB::insert("INSERT INTO `articles` (`name`, `text`) VALUES (?, ?)", ['test1', 'TEXT']);
 
 			return view('default.about')->withTitle('Hello World!');
 		}
