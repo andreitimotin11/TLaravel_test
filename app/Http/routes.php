@@ -15,7 +15,7 @@
 Route::get('/', ['as' => 'home', 'uses' => 'Admin\IndexController@show']);
 Route::get('/page', ['as' => 'page'],
 function(){
-	print_r($_ENV);
+	return view('welcome');
 });
 
 Route::get('/about', ['uses' => 'Admin\AboutController@show', 'as' => 'about']);
