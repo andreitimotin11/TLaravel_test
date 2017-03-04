@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82b6ffe7-d145-4591-b696-b3f258251bc3" name="Default" comment="L18. SQL">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.env" afterPath="$PROJECT_DIR$/.env" />
+    <list default="true" id="82b6ffe7-d145-4591-b696-b3f258251bc3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
     </list>
     <ignored path="tlaravel.loc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,8 +89,8 @@
       <file leaf-file-name=".env" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+            <state relative-caret-position="100">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -360,14 +358,7 @@
       <workItem from="1485715936208" duration="748000" />
       <workItem from="1485800888454" duration="57000" />
       <workItem from="1488562658179" duration="5160000" />
-      <workItem from="1488626284480" duration="1247000" />
-    </task>
-    <task id="LOCAL-00032" summary="L14. Class Request">
-      <created>1484687138579</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1484687138579</updated>
+      <workItem from="1488626284480" duration="1265000" />
     </task>
     <task id="LOCAL-00033" summary="L14. Class Request">
       <created>1484687758689</created>
@@ -705,11 +696,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488627398652</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="L18. SQL">
+      <created>1488627548064</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1488627548064</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80273000" />
+    <option name="totallyTimeSpent" value="80291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1292" height="1000" extended-state="0" />
@@ -1136,8 +1134,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+        <state relative-caret-position="100">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding />
         </state>
       </provider>
