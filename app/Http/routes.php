@@ -20,7 +20,6 @@ function(){
 
 Route::get('/about', ['uses' => 'Admin\AboutController@show', 'as' => 'about']);
 
-
 Route::get('/articles', ['uses' => 'Admin\Core@getArticles', 'as' => 'articles']);
 
 
@@ -40,10 +39,5 @@ Route::match(['get', 'post'], '/contact/{id?}', ['uses' => 'Admin\ContactControl
 */
 
 Route::group(['middleware' => ['web']], function () {
-	//
-	////
-	
-	
-	///
-	
+
 });
