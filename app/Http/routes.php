@@ -10,15 +10,11 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-//use Illuminate\Support\Facades\Route;
 
 Route::get('/', ['as' => 'home', 'uses' => 'Admin\IndexController@show']);
-Route::get('/page', ['as' => 'page'],
-function(){
-	return view('welcome');
-});
 
 Route::get('/about', ['uses' => 'Admin\AboutController@show', 'as' => 'about']);
+
 
 Route::get('/articles', ['uses' => 'Admin\Core@getArticles', 'as' => 'articles']);
 
@@ -39,5 +35,10 @@ Route::match(['get', 'post'], '/contact/{id?}', ['uses' => 'Admin\ContactControl
 */
 
 Route::group(['middleware' => ['web']], function () {
+    //
+    ////
+
+
+    ///
 
 });
